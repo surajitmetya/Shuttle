@@ -4,6 +4,6 @@
 frappe.ui.form.on('Book the Court', {
 	single_booking: function(frm) {
      if(frm.doc.single_booking==1)
-	      {frm.trigger('subscription');}
+
 	}
 });
